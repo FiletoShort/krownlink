@@ -8,12 +8,12 @@ load_dotenv()
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(environ.get("API_ID","13070964"))
-    API_HASH = str(environ.get("API_HASH","442aa499eb55d81808bb35c998dab9b1"))
+    API_ID = int(environ.get("API_ID","13415474"))
+    API_HASH = str(environ.get("API_HASH","01bb828c0429beeabd6e9e841d026231"))
     BOT_TOKEN = str(environ.get("BOT_TOKEN"))
-    SHORTNER_API = str(environ.get("SHORTNER_API", "0d942ae271110e9affd23a8958dea65fb607211c")) 
-    SHORTENR_URL = str(environ.get("SHORTENR_URL", "tnlink.in")) 
-    AUTH_CHANNEL = str(environ.get("AUTH_CHANNEL", "BGM_LinkzZ")) 
+    SHORTNER_API = str(environ.get("SHORTNER_API", "15c728d0af696e2c4751e0d3a965a0652b393ea7")) 
+    SHORTENR_URL = str(environ.get("SHORTENR_URL", "tnshort.net")) 
+    AUTH_CHANNEL = str(environ.get("AUTH_CHANNEL", "SAM_DUB_LEZHa")) 
     CUSTOM_FILE_CAPTION = str(environ.get("CUSTOM_FILE_CAPTION","** {file_name} \n\n 🔗 Fᴀsᴛ Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋ 🔗 \n {short_link} \n\n ➥ 𝗝𝗼𝗶𝗻 ➼ @{main_chat} **")) 
     SLEEP_THRESHOLD = int(environ.get("SLEEP_THRESHOLD", "60"))  # 1 minte
     WORKERS = int(environ.get("WORKERS", "6"))  # 6 workers = 6 commands at once
@@ -43,6 +43,6 @@ class Var(object):
         URL = f"{FQDN}/"
 
     UPDATES_CHANNEL = str(environ.get('UPDATES_CHANNEL', "aredirect"))
-    OWNER_ID = int(environ.get('OWNER_ID', '5400525106'))
+    OWNER_ID = int(environ.get('OWNER_ID', '885675538'))
 
     BANNED_CHANNELS = list(set(int(x) for x in str(environ.get("BANNED_CHANNELS", "-1001296894100")).split()))

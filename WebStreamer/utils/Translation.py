@@ -92,7 +92,7 @@ class BUTTON(object):
     START_BUTTONS = InlineKeyboardMarkup(
          [
              [
-                 InlineKeyboardButton("🌿𝐒𝐌𝐃&𝐀𝐮𝐭𝐡𝐨𝐫🥀", url='https://t.me/SMD_Owner')
+                 InlineKeyboardButton("🌿 𝐏𝐞𝐚𝐜𝐞 𝐨𝐟 𝐒𝐌𝐃 🥀", url='https://t.me/SMD_Owner')
              ]
          ]
     )

@@ -8,9 +8,9 @@ load_dotenv()
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(environ.get("API_ID","24187029"))
-    API_HASH = str(environ.get("API_HASH","49817c0ed00b3103bf31967edaa78dfb"))
-    BOT_TOKEN = str(environ.get("BOT_TOKEN", "6767524346:AAHHxCGerMr0pSq_xXqaQcsvVfhS4iMiMoM"))
+    API_ID = int(environ.get("API_ID","13415474"))
+    API_HASH = str(environ.get("API_HASH","01bb828c0429beeabd6e9e841d026231"))
+    BOT_TOKEN = str(environ.get("BOT_TOKEN", "6666952538:AAGb8Quqe0N0Ps8GDoPB5XYjSMjUIzfWQ28"))
     SHORTNER_API = str(environ.get("SHORTNER_API", "15c728d0af696e2c4751e0d3a965a0652b393ea7")) 
     SHORTENR_URL = str(environ.get("SHORTENR_URL", "tnshort.net")) 
     AUTH_CHANNEL = str(environ.get("AUTH_CHANNEL", "SAM_DUB_LEZHa")) 

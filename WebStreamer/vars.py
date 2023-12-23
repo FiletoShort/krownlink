@@ -8,11 +8,11 @@ load_dotenv()
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(environ.get("API_ID","24652824"))
-    API_HASH = str(environ.get("API_HASH","eaca6d81c81f01149442cfeee6dbb4be"))
-    BOT_TOKEN = str(environ.get("BOT_TOKEN", "6611656579:AAEgiLGF1ablDb7LGr4lwdJRwqZYgsUPIKk"))
-    SHORTNER_API = str(environ.get("SHORTNER_API", "0b43fe204c82d7e5f0fb6bd02ca125f4260f871b")) 
-    SHORTENR_URL = str(environ.get("SHORTENR_URL", "upshrink.com")) 
+    API_ID = int(environ.get("API_ID","29843112"))
+    API_HASH = str(environ.get("API_HASH","7519cd035add179edec5c84933ab6622"))
+    BOT_TOKEN = str(environ.get("BOT_TOKEN", "6349485953:AAGcd4pyNOV7OxkrNYwIhqGpbnVInvEAoC4"))
+    SHORTNER_API = str(environ.get("SHORTNER_API", "ab902e9f48d0f651e1bca4fee694b0efc85a1cf2")) 
+    SHORTENR_URL = str(environ.get("SHORTENR_URL", "omnifly.in.net")) 
     AUTH_CHANNEL = str(environ.get("AUTH_CHANNEL", "SAM_DUB_LEZHa")) 
     CUSTOM_FILE_CAPTION = str(environ.get("CUSTOM_FILE_CAPTION","** {file_name} \n\n ➠Fast Download Link : \n {short_link} **")) 
     SLEEP_THRESHOLD = int(environ.get("SLEEP_THRESHOLD", "60"))  # 1 minte
